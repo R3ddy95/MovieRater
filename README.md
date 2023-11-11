@@ -51,6 +51,7 @@ And at the end you can log out at the top right of the header.
 * [Axios](https://axios-http.com/) for the API requests
 * [Bootstrap](https://getbootstrap.com/) as a CSS framework I have opted for
 * [Material-UI](https://mui.com/)
+* [Intellij IDE](https://www.jetbrains.com/idea/)
 * [JDK](https://www.oracle.com/it/java/technologies/downloads/)
 * [SpringBoot](https://spring.io/projects/spring-boot)
 * [MongoDB](https://www.mongodb.com/)
@@ -67,37 +68,35 @@ If you don't have it, you can download it here:
 ### 1 - Clone the repository
 ```bash
 
-git clone https://github.com/R3ddy95/VeggieRecipeHub.git
+git clone https://github.com/R3ddy95/MovieRater.git
 
 ```
 
-### 2 - Install the dependencies
+### 2 - BackEnd
+First of all you need to deploy the back end, although to make it work you should have a database already working.
+I used MongoDB, if you use the same one, you have to create a .env file in the src/main/resource directory with the data entered, I created a .env.example file to have an example of how you should configure it.
+However, if you don't want to do it yourself, you can simply start the JAR file in the target directory inside the MovieServer folder.
+
+
+## 3 - FrontEnd
+Once the server is started, you just need to start the client side in this way, installing the dependencies first:
+
 ```bash
 
 npm install
 
 ```
 
-### 3 - Build it!
-```bash
-
-npm run build
-
-```
-
-### 4 - API
-You need your API Key if you want to work this project, go to [Spoonacular](https://spoonacular.com/food-api/docs) and get one.<br>
-Then Open your Directory folder and create a new file with the name .env and write this code:
+Once installed, create an env file. inside the root directory with exactly this inside:
 
 ```env
 
-REACT_APP_API_KEY=YOUR_API_KEY
+REACT_APP_API_KEY=http://localhost:8080
 
 ```
+However, keep in mind that the server is started on port 8080, this could change if you have opted for changes
 
-Replace YOUR_API_KEY With the Key you took on Spoonacular
-
-### 5 - Open in the browser
+### 4 - Run it!
 ```bash
 
 npm start
@@ -108,11 +107,11 @@ and go to [http://localhost:3000](http://localhost:3000) to view it in your brow
 
 ##  Try it!
 Elsewhere, you can simply try it here:
-[VeggieRecipeHub](https://vegetarianrecipe-1c6fd.web.app/)
+[MovieRater](https://movierater-3b15c.web.app/)
 
 ##  License
 [MIT](https://choosealicense.com/licenses/mit/)
 
 ## Contact Me
-My Email: edoardo.vitagliano3@gmail.com <br>
+My Email: edoardovitagliano3@gmail.com <br>
 You can find my Linkedin profile here: https://www.linkedin.com/in/edoardo-vitagliano-299737110/
