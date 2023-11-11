@@ -7,10 +7,10 @@ Movie Rater is a complete web application with both FrontEnd and BackEnd, that a
 
 The project was created with:
 
-Front-end: React, Router-dom, Boostrap, Material-UI
-Backend: Java, SpringBoot
-Database: MongoDB
-Deployment: Render, Firebase
+* Front-end: React, Router-dom, Boostrap, Material-UI
+* Backend: Java, SpringBoot
+* Database: MongoDB
+* Deployment: Render, Firebase
 
 You can Try it [Here]([https://movierater-3b15c.web.app/)
 
