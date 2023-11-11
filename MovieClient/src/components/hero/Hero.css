@@ -64,8 +64,13 @@
   
   @media only screen and (max-width: 800px) {
     .movie-detail{
+        padding-top: 20px;
         flex-direction: column;
         align-items: center;
         top:20px;
+    }
+
+    .movie-title{
+      padding: 30px;
     }
   }
