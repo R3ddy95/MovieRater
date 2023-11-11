@@ -12,7 +12,7 @@ The project was created with:
 * Database: MongoDB
 * Deployment: Render, Firebase
 
-You can Try it [Here]([https://movierater-3b15c.web.app/)
+You can Try it [Here]([https://movierater-3b15c.web.app/) [MovieRater](https://movierater-3b15c.web.app/)
 
 ## How it works
 The user can start by registering on the website
@@ -78,7 +78,7 @@ I used MongoDB, if you use the same one, you have to create a .env file in the s
 However, if you don't want to do it yourself, you can simply start the JAR file in the target directory inside the MovieServer folder.
 
 
-## 3 - FrontEnd
+### 3 - FrontEnd
 Once the server is started, you just need to start the client side in this way, installing the dependencies first:
 
 ```bash
