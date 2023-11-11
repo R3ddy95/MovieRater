@@ -17,23 +17,23 @@ You can Try it [Here]([https://movierater-3b15c.web.app/)
 ## How it works
 The user can start by registering on the website
 
-<img src="MovieClient/src/images/register.png" width="50%" height="50%">
+<img src="MovieClient/src/images/register.png" width="70%" height="70%">
 
 After registering you will be redirected to the login page
 
-<img src="MovieClient/src/images/login.png" width="50%" height="50%">
+<img src="MovieClient/src/images/login.png" width="70%" height="70%">
 
 Once logged in you will be redirected to the home page
 
-<img src="MovieClient/src/images/movies.png" width="50%" height="50%">
+<img src="MovieClient/src/images/movies.png" width="70%" height="70%">
 
 Where you can watch the films and watch the trailer
 
-<img src="MovieClient/src/images/trailer.png" width="50%" height="50%">
+<img src="MovieClient/src/images/trailer.png" width="70%" height="70%">
 
 Or click on the review button to leave a review of the film with a comment
 
-<img src="MovieClient/src/images/reviews.png" width="50%" height="50%">
+<img src="MovieClient/src/images/reviews.png" width="70%" height="70%">
 
 And at the end you can log out at the top right of the header.
 
